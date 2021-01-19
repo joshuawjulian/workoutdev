@@ -1,0 +1,167 @@
+{
+	"workouts" : [
+		{
+			"name": "Fran",
+			"text": "Explain Fran",
+			"timeDomain": "mod",
+			"metaData" : [
+				{
+					"pattern": "Squat",
+					"movement":
+					{
+						"name": "Thruster",
+						"modality": "Weightlifting",
+						"weighted": true,
+						"primaryPattern": "Squat",
+						"secondaryPattern": ["Push", "Open"]
+					}
+				}
+			]
+		}
+	],
+	"movements" : [
+		{
+			"name": "Push Up",
+			"modality": "Gymnastics",
+			"primaryPattern" : "Push",
+			"weighted" : false
+		},
+		{
+			"name": "Bench Press",
+			"modality": "Weightlifting",
+			"primaryPattern": "Push",
+			"weighted" : true
+		},
+		{
+			"name": "(Squat) Clean",
+			"modality": "Weightlifting",
+			"weighted": true,
+			"primaryPattern": "Squat",
+			"secondaryPattern": ["Open","Pull"]
+		},
+		{
+			"name": "Power Clean",
+			"modality": "Weightlifting",
+			"weighted": true,
+			"primaryPattern": "Open",
+			"secondaryPattern": ["Pull"]
+		},
+		{
+			"name": "(Squat) Snatch",
+			"modality": "Weightlifting",
+			"weighted": true,
+			"primaryPattern": "Squat",
+			"secondaryPattern": ["Open","Pull"]
+		},
+		{
+			"name": "Power Snatch",
+			"modality": "Weightlifting",
+			"weighted": true,
+			"primaryPattern": "Open",
+			"secondaryPattern": ["Pull"]
+		},
+		{
+			"name": "Row",
+			"modality": "Cardio",
+			"weighted": false,
+			"primaryPattern": "Open",
+			"secondaryPattern": ["Pull"]
+		},
+		{
+			"name": "Run",
+			"modality": "Cardio",
+			"weighted": false,
+			"primaryPattern": "Lunge"
+		},
+		{
+			"name": "Echo Bike",
+			"modality": "Cardio",
+			"weighted": false,
+			"primaryPattern": "Lunge",
+			"secondaryPattern": ["Pull", "Push"]
+		},
+		{
+			"name": "Thruster",
+			"modality": "Weightlifting",
+			"weighted": true,
+			"primaryPattern": "Squat",
+			"secondaryPattern": ["Push", "Open"]
+		},
+		{
+			"name": "DB Thruster",
+			"modality": "Weightlifting",
+			"weighted": true,
+			"primaryPattern": "Squat",
+			"secondaryPattern": ["Push", "Open"]
+		},
+		{
+			"name": "Barbell Front Rack Lunge",
+			"modality": "Weightlifting",
+			"weighted": true,
+			"primaryPattern": "Lunge"
+		},
+		{
+			"name": "Hand Stand Pushup",
+			"modality": "Gymnastic",
+			"weighted": false,
+			"primaryPattern": "Push"
+		},
+		{
+			"name": "Hand Stand Walk",
+			"modality": "Gymnastic",
+			"weighted": false,
+			"primaryPattern": "Push"
+		},
+		{
+			"name": "Ring Dip",
+			"modality": "Gymnastic",
+			"weighted": false,
+			"primaryPattern": "Push"
+		},
+		{
+			"name": "Wall Ball Shot",
+			"modality": "Gymnastic",
+			"weighted": true,
+			"primaryPattern": "Squat",
+			"secondaryPattern": ["Push"]
+		},
+		{
+			"name": "Bar Muscle Up",
+			"modality": "Gymnastic",
+			"weighted": false,
+			"primaryPattern": "Pull",
+			"secondaryPattern": ["Push"]
+		},
+		{
+			"name": "Ring Muscle Up",
+			"modality": "Gymnastic",
+			"weighted": false,
+			"primaryPattern": "Pull",
+			"secondaryPattern": ["Push"]
+		},
+		{
+			"name": "Pull Up",
+			"modality": "Gymnastic",
+			"weighted": false,
+			"primaryPattern": "Pull"
+		},
+		{
+			"name": "Weighted Pull Up",
+			"modality": "Gymnastic",
+			"weighted": true,
+			"primaryPattern": "Pull"
+		},
+		{
+			"name": "Ab Mat Situp",
+			"modality": "Gymnastic",
+			"weighted": false,
+			"primaryPattern": "Close"
+		},
+		{
+			"name": "Toes To Bar",
+			"modality": "Gymnastic",
+			"weighted": false,
+			"primaryPattern": "Close"
+		}
+	]
+}
